@@ -396,7 +396,6 @@ header{
     margin-bottom: 30px;
 }
 .galeria a{
-    border: blue solid 1px;
     width: 300px;
     transition: all linear 0.2s;
 }
