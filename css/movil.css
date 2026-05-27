@@ -1,0 +1,141 @@
+@media (max-width: 430px){
+.ContHead{
+    flex-direction: column;
+    padding: 0px;
+    gap: 15px;
+    position: relative;
+}
+.ContHead figure{
+    margin-top: 10px;
+}
+.Menu{
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    gap: 5px;
+
+    position: absolute;
+    top:100%;
+    left: -100%;
+    z-index: 1000;
+    box-shadow: 1px 1px 13px -5px rgba(35,54,69,0.69);
+    transition: all 0.5s linear;
+}
+.Menu a{
+    display: block;
+    border-bottom: 1px solid var(--gris);
+    padding: 5px;
+}
+.Menu a:hover{
+    background: #23364534;
+}
+.MenuIcon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    flex-direction: row;
+    font-size: 25px;
+    color: white;
+    width: 100%;
+    background: var(--rojo);
+    
+}
+.Menu.abrirmenu{
+    left: 0;
+}
+/*Slide*/
+.rslides_nav {
+    display: none;
+}
+.contText{
+    text-align: center;
+}
+.contText h2{
+    font-size: 22px;
+}
+.contText h1{
+    font-size: 50px;
+    line-height: 50px;
+}
+.contText p{
+    font-size: 18px;
+}
+.contTec {
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.About{
+    flex-direction: column;
+}
+.About figure{
+    width: 100%;
+    height: 400x;
+}
+.Texto{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%
+}
+.Texto h1{
+   line-height: 40px;
+}
+.ContcardFeatures{
+    flex-wrap: wrap;
+    left:4%;
+    padding: 1px;
+}
+.cardFeatures figure{
+    width: 170px;
+    height: 170px;
+}
+.Quehacemos{
+    margin-top: 50px;
+}
+.Quehacemos .Texto{
+    margin-bottom: 10px;
+}
+.bannerAbout article{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.bannerAbout div{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 22px;
+}
+.contGrid{
+    grid-template: repeat(4, 1fr) /auto;
+}
+.partners{
+    flex-direction: column;
+}
+.tarjetas{
+    width: 100%;
+}
+.Cont{
+    flex-direction: column;
+}
+.formulario{
+    width: 100%;
+}
+.Contactos{
+    padding: 20px 30px;
+    margin: 0px;
+}
+.Cont{
+    gap: 20px;
+}
+.noticias{
+    flex-direction: column;
+}
+.noticia{
+    width: 100%;
+}
+.iconosFooter{
+    font-size: 20px;
+}
+}
