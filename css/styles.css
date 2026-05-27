@@ -1,10 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Lato:wght@300;400;700&display=swap');
 body{
-    font-family: helvetica;
+    font-family: 'Lato', helvetica, sans-serif;
     font-size:16px;
     line-height: 24px;
     
     --rojo:#e22454;
     --gris:#233645;
+
+    --fuente-titulos: 'Oswald', sans-serif;
+    --fuente-texto: 'Lato', helvetica, sans-serif;
+}
+/* Tipografías */
+h1, h2, h3, h4, h5, h6, .btn {
+    font-family: var(--fuente-titulos);
+}
+
+p, input, textarea, li, a {
+    font-family: var(--fuente-texto);
 }
 *{
     box-sizing: border-box;
