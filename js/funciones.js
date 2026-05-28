@@ -44,7 +44,7 @@ $("#abrirAcordeon3").click(function(){
     const nombre=document.getElementById('nombre').value.trim();
     const email=document.getElementById('mail').value.trim();
     const mensaje=document.getElementById('mensaje').value.trim();
-    const error=document.getElementById('error')
+    const error=document.getElementById('error');
 
     error.style.color='green';
     error.textContent='Forms send'
